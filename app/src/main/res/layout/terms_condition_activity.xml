@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+            <TextView
+                android:id="@+id/tv_robocall"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/heading"
+                android:textColor="@color/colorBlack"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/tv_text_one"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_download"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:id="@+id/tv_terms_privacy"
+                android:layout_marginTop="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/text_link"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tv_terms"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_terms"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/tv_privacy"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_privacy"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:id="@+id/tv_click_next"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_click"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"/>
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_weight=".1"
+            android:id="@+id/r_layout_next"
+            android:gravity="center|left"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/colorPrimaryDark">
+
+
+            <TextView
+                android:id="@+id/tv_next"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_next"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
